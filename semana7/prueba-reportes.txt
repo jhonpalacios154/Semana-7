@@ -1,0 +1,3 @@
+Al enviar un reporte mediante la ruta POST /reportes, el servidor recibe la información, crea un nuevo reporte con un identificador y lo almacena en el array de reportes. Luego responde con un mensaje indicando que el reporte fue registrado correctamente.
+
+Al consultar la ruta GET /reportes, el servidor devuelve la lista completa de los reportes almacenados en memoria en formato JSON. Cada nuevo reporte enviado aparece en esta lista mientras el servidor permanezca en ejecución.
